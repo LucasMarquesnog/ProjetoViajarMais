@@ -124,17 +124,34 @@ main{
     padding-left: 15px;
     padding-right: 15px;
     flex-direction: row;
+    flex-wrap: wrap;
     
     h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+    }
 
     li{
         display: flex;
         text-decoration: none;
+        padding-right: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
     }
 }
 .final{
     display: flex;
     justify-content: center;
-    flex-direction: column;}
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
